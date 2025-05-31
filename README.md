@@ -32,7 +32,7 @@ Bu proje, kullanıcıya ürün tanıtımı ve iletişim formu sağlayan etkileş
 ##  Teknik Notlar
 - Bu proje bir **prototip** çalışmasıdır.
 - Gerçek e-posta gönderimi backend gerektirdiğinden simüle edilmiştir.
-- Kod yapısı sade, yorumlardan arındırılmış ve teslimata hazırdır.
+- Kod yapısı sade, okunulabilir şekilde hazırdır.
 
 ---
 
