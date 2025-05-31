@@ -1,6 +1,5 @@
-# Etkileşimli Popup Form Tasarımı (Staj Projesi)
-
-Bu proje, kullanıcıya ürün tanıtımı ve iletişim formu sağlayan etkileşimli bir pop-up arayüz prototipidir. Yazılım geliştirme stajı kapsamında, HTML, CSS ve JavaScript ile sıfırdan tasarlanmıştır.
+# Etkileşimli Popup Form Tasarımı
+Bu proje, kullanıcıya ürün tanıtımı ve iletişim formu sağlayan etkileşimli bir pop-up arayüz prototipidir.  HTML, CSS ve JavaScript ile sıfırdan tasarlanmıştır.
 
 ##  Proje Özeti
 - 6 temel ürünü tanıtan kart yapısı
@@ -23,7 +22,7 @@ Bu proje, kullanıcıya ürün tanıtımı ve iletişim formu sağlayan etkileş
 
 ---
 
-## 🛠️ Kullanılan Teknolojiler
+## 🛠 Kullanılan Teknolojiler
 - HTML5
 - CSS3 (Flexbox & Grid layout)
 - Vanilla JavaScript (localStorage, DOM, event handling)
@@ -40,4 +39,3 @@ Bu proje, kullanıcıya ürün tanıtımı ve iletişim formu sağlayan etkileş
 ## Geliştirici
 **Ali Onelge**  
 Tel : 0535 070 85 04
-2025 Yaz Stajı Projesi
