@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>İlkSMS Pop-up Görev</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div id="popup" class="popup">
+    <div class="popup-content">
+      <span class="close">&times;</span>
+
+      <h2>Ürünlerimiz</h2>
+      <div class="product-grid">
+        <a href="#eokul-randevu" class="product-card">
+          <h3>eOkul Randevu</h3>
+          <p>Öğretmen Veli randevu sistemi</p>
+        </a>
+        <a href="#kelebek-sistemi" class="product-card">
+          <h3>iKelebek Sistemi</h3>
+          <p>Kelebek sınav dağıtımı sistemi</p>
+        </a>
+        <a href="#kilit-tahta" class="product-card">
+          <h3>iKilit Akıllı Tahta</h3>
+          <p>Akıllı tahta kilidi ve duyuru yönetimi</p>
+        </a>
+        <a href="#ders-program" class="product-card">
+          <h3>iDers Programı</h3>
+          <p>Haftalık ders programı hazırlama</p>
+        </a>
+        <a href="#yoklama" class="product-card">
+          <h3>eOkul Yoklama</h3>
+          <p>Ders bazlı öğrenci yoklaması</p>
+        </a>
+        <a href="#okulum-mobil" class="product-card">
+          <h3>Okulum Mobil</h3>
+          <p>Okula özel mobil uygulama</p>
+        </a>
+      </div>
+
+      <h2>Beni Arayın</h2>
+      <form id="contactForm" action="#">
+        <input type="text" id="name" name="name" placeholder="Ad Soyad" required autocomplete="name" />
+<input type="tel" id="phone" name="phone" placeholder="Telefon Numarası" required autocomplete="tel" />
+
+        <label><input type="checkbox" id="agree" name="agree" required /> Gizlilik politikasını okudum ve onaylıyorum</label>
+        <label><input type="checkbox" id="dontShowAgain" /> Bir daha gösterme</label>
+        <button type="submit">Beni Arayın</button>
+      </form>
+
+      <p id="successMessage" class="hidden">Teşekkürler, en kısa sürede size ulaşacağız.</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

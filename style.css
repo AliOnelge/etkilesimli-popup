@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+}
+
+.popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  background: rgba(0, 0, 0, 0.6);
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.popup-content {
+  background: white;
+  padding: 20px;
+  width: 95%;
+  max-width: 700px;
+  border-radius: 10px;
+  position: relative;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+h2 {
+  margin-top: 0;
+  font-size: 22px;
+  color: #333;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.product-card {
+  background: #e3f2fd;
+  border: 1px solid #bbdefb;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+  border-radius: 8px;
+  transition: background 0.3s;
+}
+
+.product-card:hover {
+  background: #bbdefb;
+  transform: scale(1.03);
+  transition: 0.2s ease;
+
+
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input[type="text"],
+input[type="tel"] {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+label {
+  font-size: 14px;
+}
+
+button[type="submit"] {
+  background: #2196F3;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background: #1769aa;
+  transform: scale(1.01);
+
+  
+}
+
+.hidden {
+  display: none;
+}
+
+#successMessage {
+  color: green;
+  margin-top: 15px;
+  font-weight: bold;
+}
